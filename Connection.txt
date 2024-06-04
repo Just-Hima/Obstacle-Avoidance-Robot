@@ -1,0 +1,33 @@
+- Components: 
+• Arduino Board 
+• L298N Motor Driver Module 
+• Ultrasonic Sensor (HC-SR04) 
+•Servo Motor 
+• DC Motors (4) – Each pair Connected in Parallel on both sides. 
+• Jumper wires 
+• External Power Supply (7V - 9V Battery) 
+
+
+-Connections: 
+
+Ultrasonic Sensor (HC-SR04): 
+1. VCC: Connect to the 5V pin on the Arduino. 
+2. Trig: Connect to digital pin 11 on the Arduino. 
+3. Echo: Connect to digital pin 12 on the Arduino. 
+
+Servo Motor: 
+1. Signal: Connect to digital pin 3 on the Arduino. 
+2. Power: Connect to the 5V pin on the Arduino. 
+
+L298N Motor Driver: 
+1. 12V (VCC): Connect to an external power supply. 
+2. GND: Connect to the GND of the Arduino, Servo Motor, Ultrasonic Sensor and power supply. 
+3. 5V: Connect to the 5V pin on the Arduino, VCC of the Ultrasonic sensor and Power of the Servo motor. 
+4. ENA: Connect to digital pin 5 on the Arduino (PWM control for right motor speed). 
+5. IN1: Connect to digital pin 7 on the Arduino (right motor direction). 
+6. IN2: Connect to digital pin 8 on the Arduino (right motor direction). 
+7. ENB: Connect to digital pin 6 on the Arduino (PWM control for left motor speed). 
+8. IN3: Connect to digital pin 9 on the Arduino (left motor direction). 
+9. IN4: Connect to digital pin 10 on the Arduino (left motor direction). 
+10. OUT1 and OUT2: Connect to the two terminals of the right motors. 
+11. OUT3 and OUT4: Connect to the two terminals of the left motors. 
